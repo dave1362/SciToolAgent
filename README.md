@@ -101,7 +101,7 @@ If you encounter any package conflicts, you can install the project without its 
 
 
 
-<h3 id="4.3">🚀Quick Start</h2>
+<h3 id="4.2">🚀Quick Start</h2>
 
 
 You need to modify the `example.env` and `ToolsAgent/example.env` files to set your `API_KEY` and `API_BASE`.
@@ -205,6 +205,7 @@ python eval_tool_path.py
 We provide an online service for SciToolAgent, you can access it through the following link: http://scitoolagent.scimind.ai:8080/
 
 <h2 id="9">📝️  Cite</h2>
+
 ```
 @article{
   title={SciToolAgent: Knowledge Graph-Driven Scientific Agent for Multi-Tool Integration},

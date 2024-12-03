@@ -205,7 +205,7 @@ python eval_tool_path.py
 We provide an online service for SciToolAgent, you can access it through the following link: http://scitoolagent.scimind.ai:8080/
 
 <h2 id="9">📝️  Cite</h2>
-```bibtex
+```
 @article{
   title={SciToolAgent: Knowledge Graph-Driven Scientific Agent for Multi-Tool Integration},
   author={Keyan Ding, Jing Yu, Junjie Huang, Yuchen Yang, Qiang Zhang, Huajun Chen},

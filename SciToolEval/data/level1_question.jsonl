@@ -1,0 +1,152 @@
+{"question": "Could you determine the global alignment result for the protein sequences \"APDHDVTQERDEVWVVGM\" and \"APDHDVTQERDEVWVVGM\"?", "tool_path": ["DoubleSequenceGlobalAlignment"]}
+{"question": "Can you perform a local alignment comparison between the following two protein sequences: APDHDVTQERDEVWVVGM and APDHDVTQERDEVWVVGM?", "tool_path": ["DoubleSequenceLocalAlignment"]}
+{"question": "Can you predict the functional motifs present in the following protein sequence: MGQPGNGSAFLLAPNGSHAPDHDVTQERDEVWVVGMGIVMSLIVLAIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGAAHILMKMWTFGNFWCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVIILMVWIVSGLTSFLPIQMHWYRATHQEAINCYANETCCDFFTNQAYAIASSIVSFYVPLVIMVFVYSRVFQEAKRQLQKIDKSEGRFHVQNLSQVEQDGRTGHGLRRSSKFCLKEHKALKTLGIIMGGNGYSSNGNTGEQSGYHVEQEKENKLLCEDLPGTEDFVGHQGTVPSDNIDSQGRNCSTNDSLL?", "tool_path": ["ProteinMotifAnalysis"]}
+{"question": "Translate the following DNA sequence into its corresponding protein sequence: ATCGATCGATCGATCGATCGTAGCTAGCTAGCTAGCTAGC.", "tool_path": ["TranslateDNAtoAminoAcidSequence"]}
+{"question": "Can you convert the peptide sequence \"APDHDVTQERDEVWVVGM\" into its corresponding SMILES format?", "tool_path": ["ConvertingPeptide2SMILES"]}
+{"question": "Can you generate a random DNA sequence with a length of 100 base pairs?", "tool_path": ["RandomDNAGeneration"]}
+{"question": "What is the amino acid sequence of the protein with the PDB ID 6EQX?", "tool_path": ["AnalyzeProteinSeqFromPDB"]}
+{"question": "What is the unfolding energy for the protein sequence APDHDVTQERDEVWVVGM?", "tool_path": ["CalculateEnergyFromSequence"]}
+{"question": "What is the unfolding force for the protein sequence MGQPGNGSAFLLAPNGSHAPDHDVTQERDEVWVVGMGIVMSLIVLAIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGAAHILMKMWTFGNFWCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVIILMVWIVSGLTSFLPIQMHWYRATHQEAINCYANETCCDFFTNQAYAIASSIVSFYVPLVIMVFVYSRVFQEAKRQLQKIDKSEGRFHVQNLSQVEQDGRTGHGLRRSSKFCLKEHKALKTLGIIMGGNGYSSNGNTGEQSGYHVEQEKENKLLCEDLPGTEDFVGHQGTVPSDNIDSQGRNCSTNDSLL?", "tool_path": ["CalculateForceFromSequence"]}
+{"question": "Given an unfolding energy of 15 kcal/mol, can you generate the corresponding protein sequence?", "tool_path": ["GenerateSequenceFromEnergy"]}
+{"question": "What is the SMILES string for the molecule named ethanol?", "tool_path": ["NameToSMILES"]}
+{"question": "Can you determine whether the substance with CAS number 64-17-5 has any explosive properties?", "tool_path": ["CheckExplosiveness"]}
+{"question": "What are the EState VSA indices for the molecule with the SMILES representation \"CC(=O)O\"?", "tool_path": ["CalculateEstateVsa"]}
+{"question": "Could you convert the chemical structure represented by the InChIKey \"CSCPPACGZOOCGX-UHFFFAOYSA-N\" into its corresponding SMILES notation?", "tool_path": ["InChIKeyToSMILES"]}
+{"question": "Could you convert the SMILES string \"CC(=O)O\" into its corresponding SELFIES representation?", "tool_path": ["SMILEStoSELFIES"]}
+{"question": "Can you determine if the molecule represented by the SMILES string \"c1ccc(cc1)C(=O)O\" has a valid ring cut?", "tool_path": ["CheckValidRingCut"]}
+{"question": "Please help me calculate the extinction coefficient of MGQPGNGSAFLLAPNGSHAPDHDVTQERDEVWVVGMGIVMSLIVLAIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGAAHILMKMWTFGNFWCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVIILMVWIVSGLTSFLPIQMHWYRATHQEAINCYANETCCDFFTNQAYAIASSIVSFYVPLVIMVFVYSRVFQEAKRQLQKIDKSEGRFHVQNLSQVEQDGRTGHGLRRSSKFCLKEHKALKTLGIIMGGNGYSSNGNTGEQSGYHVEQEKENKLLCEDLPGTEDFVGHQGTVPSDNIDSQGRNCSTNDSLL", "tool_path": ["ComputeExtinctionCoefficient"]}
+{"question": "What is the band gap of the material with the formula \"Eu2SiCl2O3\"?", "tool_path": ["GetBandGapByFormula"]}
+{"question": "What is the number of elements in the battery material with battery id mp-556848_Ca?", "tool_path": ["GetNelementsByBatteryId"]}
+{"question": "What is the battery formula for the battery with ID mp-556848_Ca?", "tool_path": ["GetBatteryFormulaByBatteryId"]}
+{"question": "What is the crystal system of material with material id mp-149?", "tool_path": ["GetCrystalSystemByMaterialId"]}
+{"question": "Please provide the metal information for the material with the formula Eu2SiCl2O3.", "tool_path": ["IsMetalByFormula"]}
+{"question": "Is the material with the material id mp-149 stable?", "tool_path": ["IsStableByMaterialId"]}
+{"question": "Is the material with the formula Eu2SiCl2O3 stable?", "tool_path": ["IsStableByFormula"]}
+{"question": "How would you determine the radius of gyration for the molecule with the SMILES notation CC1=CC=C(C=C1)C2=CC=CC=C2?", "tool_path": ["CalculateRadiusOfGyration"]}
+{"question": "Calculate the sphericity index for the compound with the SMILES notation CC1=C(C=CC=C1)C2=CC=CC=C2.", "tool_path": ["CalculateSpherocityIndex"]}
+{"question": "Could you determine the Topological Polar Surface Area (TPSA) for the compound with the following SMILES notation: CC(C)C1=CC=C(C=C1)C2=CC=C(C=C2)C(=O)O?", "tool_path": ["CalculateTPSA"]}
+{"question": "What is the specific property of the compound represented by the SMILES string CC1=C(C=CC=C1)C2=CC=CC=C2 when determined using the Van der Waals Surface Area calculation method?", "tool_path": ["CustomPropertyVSA"]}
+{"question": "Could you determine the atom pair fingerprint for the compound represented by the SMILES notation CC(C)C1=CC=C(C=C1)C2=CC=C(C=C2)C(=O)O?", "tool_path": ["GetAtomPairFingerprint"]}
+{"question": "Could you determine the connectivity invariants for the molecule with the SMILES notation CC(C)C1=CC=C(C=C1)C(C)C(=O)O?", "tool_path": ["GetConnectivityInvariants"]}
+{"question": "Could you calculate the PBF descriptor for the molecule represented by the SMILES string 'CC(C)CC(C)(C)C1=CC=CC=C1'?", "tool_path": ["CalculatePBF"]}
+{"question": "Could you determine the primary principal moment of inertia for the molecule described by the SMILES notation 'CCC(CC)C1=CC(=O)C2=C(C1=O)C=CC=C2'? Please provide a detailed explanation of the steps involved in your calculation.", "tool_path": ["CalculatePMI1"]}
+{"question": "Could you determine the PMI2 descriptor for the molecular structure represented by the SMILES notation 'CC1=C(C=CC=C1)C2=CC=CC=C2'? Please include a detailed explanation of the steps involved in your calculation.", "tool_path": ["CalculatePMI2"]}
+{"question": "Determine the spherocity index for the molecule represented by the SMILES string CCC(CC)C1=CC(=O)C2=C(C1=O)C=CC=C2.", "tool_path": ["CalculateSpherocityIndex"]}
+{"question": "Can you compute the feature invariants for the molecule with the SMILES string CC(C)N(C)C1=CC=C(C=C1)C2=CC=CC=C2?", "tool_path": ["GetFeatureInvariants"]}
+{"question": "Identify the ring systems in the molecule represented by the SMILES string CC1=CC2=C(C=C1)C(=O)NC2=O.", "tool_path": ["GetRingSystems"]}
+{"question": "What is the USR descriptor for the molecule with the SMILES string CC1=CC2=C(C=C1)C(=O)NC2=O?", "tool_path": ["GetUSR"]}
+{"question": "What is the USRCAT descriptor for the molecule with the SMILES string CC1=CC2=C(C=C1)C(=O)NC2=O?", "tool_path": ["GetUSRCAT"]}
+{"question": "Can you generate the SMILES string with added hydrogen atoms for CC(C)N(C)C(=O)CC1=CC=CC=C1?", "tool_path": ["AddHydrogens"]}
+{"question": "Could you create a shingling representation for the molecule with the SMILES notation \"CC(C)C1=CC=C(C=C1)C2=CC=C(C=C2)C(=O)O\"?", "tool_path": ["CreateShingling"]}
+{"question": "Given the molecular structure represented by the SMILES string \"CC(C)N(C)C1=CC=C(C=C1)C2=CC=CC=C2\", could you compute and provide a detailed breakdown of its 2D BCUT descriptors, including values for mass, Gasteiger charge, Crippen logP, and Crippen MR?", "tool_path": ["GetBCUT"]}
+{"question": "Calculate the chi-zero cluster index for the molecular structure with the SMILES notation: C([C@@H]([C@@H]1C(=C(C(=O)O1)O)O)O)O.", "tool_path": ["GetChi0n"]}
+{"question": "Calculate the Chi-zero-v valence molecular graph index for the compound with the SMILES notation \"CC(C)C1=CC=C(C=C1)C2=CC=C(C=C2)C(=O)O\".", "tool_path": ["GetChi0v"]}
+{"question": "What is the first principal moment of inertia for the molecule with SMILES CC1=CC2=C(C=C1)C(=O)NC2=O?", "tool_path": ["CalculatePMI1"]}
+{"question": "Can you calculate the molecular formula for the compound whose structure is given by the SMILES notation '[O-][Cr](=O)(=O)O[Cr](=O)(=O)[O-].[K+].[K+]'?", "tool_path": ["GetMolFormula"]}
+{"question": "Could you calculate the Normalized Principal Moments Ratio (NPR1) descriptor for the molecule specified by the SMILES string 'CC(C)C1=CC=C(C=C1)C2=CC=C(C=C2)C(=O)O'? This descriptor is useful for analyzing the charge distribution within the molecular structure.", "tool_path": ["GetNPR1"]}
+{"question": "Could you determine the number of aliphatic carbocycles found in the molecule represented by the SMILES notation: CC(C)C1=CC=C(C=C1)C(C)C(=O)O?", "tool_path": ["GetAliphaticCarbocyclesNum"]}
+{"question": "What is the band gap of the material with the material_id 'mp-862786'?", "tool_path": ["GetBandGapByMaterialId"]}
+{"question": "What is the density of the material with the material_id 'mp-862786'?", "tool_path": ["GetDensityByMaterialId"]}
+{"question": "What is the atomic density of the material with the material_id 'mp-862786'?", "tool_path": ["GetDensityAtomicByMaterialId"]}
+{"question": "What is the energy above hull for the material with the material_id 'mp-862786'?", "tool_path": ["GetEnergyAboveHullByMaterialId"]}
+{"question": "What is the electronic energy of the molecule with the molecule_id 'cda0e4e5c840be5195ac8d318c2f330f-C2F3N1S2-0-1'?", "tool_path": ["GetElectronicEnergyByMoelculeId"]}
+{"question": "What is the zero point energy of the molecule with the molecule_id '14e9a3c9c48c9cc3b6b9c7b92401335e-C2F3N1S2-m1-2'?", "tool_path": ["GetZeroPointEnergyByMoleculeId"]}
+{"question": "What is the total enthalpy of the molecule with the molecule_id 'cda0e4e5c840be5195ac8d318c2f330f-C2F3N1S2-0-1'?", "tool_path": ["GetTotalEnthalpyByMoleculeId"]}
+{"question": "What is the translational enthalpy of the molecule with the molecule_id '14e9a3c9c48c9cc3b6b9c7b92401335e-C2F3N1S2-m1-2'?", "tool_path": ["GetTranslationalEnthalpyByMoleculeId"]}
+{"question": "What are the Wildman-Crippen logP and MR values for the molecule represented by the SMILES notation 'CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C'?", "tool_path": ["GetCrippenDescriptors"]}
+{"question": "Could you determine the precise molecular weight for the molecule represented by the SMILES notation 'CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O'?", "tool_path": ["GetExactMolceularWeight"]}
+{"question": "What is the fraction of sp3-hybridized carbon atoms in the molecule represented by the SMILES string 'CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O'?", "tool_path": ["GetFractionCSP3"]}
+{"question": "Determine the Hall-Kier alpha index, which indicates the shape of the molecule represented by the SMILES notation 'CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C'.", "tool_path": ["GetHallKierAlpha"]}
+{"question": "Determine the Kappa2 shape complexity or branching degree for the molecule represented by the following SMILES string: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetKappa2"]}
+{"question": "Given the molecular structure represented by the SMILES notation 'CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C,' could you calculate the solvent-accessible surface area (Labute ASA) for this molecule?", "tool_path": ["GetLabuteASA"]}
+{"question": "Given the chemical structure represented by the SMILES notation 'CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C,' can you determine the molecular formula for this compound?", "tool_path": ["GetMolFormula"]}
+{"question": "Determine the Normalized Principal Moments Ratio (NPR1) descriptor for the molecular structure represented by the SMILES notation: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C. This descriptor helps in understanding the distribution of charges within the molecule.", "tool_path": ["GetNPR1"]}
+{"question": "Could you determine the NPR2 value, which is an indicator of charge distribution, for the molecule represented by the SMILES string 'CC(=O)OC1=CC=CC=C1C(=O)O'?", "tool_path": ["GetNPR2"]}
+{"question": "How many aliphatic carbocycles are present in the molecule with the following structure: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["GetAliphaticCarbocyclesNum"]}
+{"question": "Determine how many aliphatic heterocycles are present in the molecule represented by the SMILES notation: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetAliphaticHeterocyclesNum"]}
+{"question": "Determine how many aliphatic rings are present in the molecule represented by the SMILES notation 'CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O'.", "tool_path": ["GetAliphaticRingsNum"]}
+{"question": "Determine the count of amide bonds present in the molecule with the structure represented by the SMILES notation CC(=O)NCCC(=O)O.", "tool_path": ["GetAmideBondsNum"]}
+{"question": "Determine the count of aromatic heterocycles in the molecule represented by the following SMILES notation: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetAromaticHeterocyclesNum"]}
+{"question": "Identify the structural encoding fingerprint (SECFP) for the molecule given by this SMILES string: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["EncodeSECFP"]}
+{"question": "Can you calculate and give a detailed analysis of the 2D BCUT descriptors, including values for mass, Gasteiger charge, Crippen logP, and Crippen MR, for the molecule with the SMILES string \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C\"?", "tool_path": ["GetBCUT"]}
+{"question": "Could you create a shingling representation for the molecular structure given by the SMILES string \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C\"?", "tool_path": ["CreateShingling"]}
+{"question": "Can you determine and supply the 2D autocorrelation descriptors for the molecular structure denoted by the SMILES string \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C\" to aid in understanding its spatial atomic configuration?", "tool_path": ["GetAutocorrelation2D"]}
+{"question": "Calculate the 3D autocorrelation descriptors for the molecule defined by the SMILES string: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetAutocorrelation3D"]}
+{"question": "Calculate the Chi-zero-v valence molecular graph index for the molecule with the SMILES notation \"CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O\".", "tool_path": ["GetChi0v"]}
+{"question": "Calculate the Chi^1v index for the molecular graph of the compound with the following SMILES notation: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetChi1v"]}
+{"question": "Calculate the Chi^2v valence molecular graph index for the molecule with the SMILES string CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetChi2v"]}
+{"question": "Could you provide the Wildman-Crippen logP and MR values for the molecule with the SMILES notation \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C\"?", "tool_path": ["GetCrippenDescriptors"]}
+{"question": "Calculate the shape descriptor called eccentricity for the molecule with the SMILES notation \"CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O\".", "tool_path": ["GetEccentricity"]}
+{"question": "Can you accurately calculate the molecular weight of the compound with the SMILES notation \"CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O\"?", "tool_path": ["GetExactMolceularWeight"]}
+{"question": "What proportion of carbon atoms in the molecule denoted by the SMILES string \"CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O\" are sp3-hybridized?", "tool_path": ["GetFractionCSP3"]}
+{"question": "Calculate the Hall-Kier alpha index that reflects the molecular shape for the compound with the SMILES notation \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C\".", "tool_path": ["GetHallKierAlpha"]}
+{"question": "Calculate the Kappa1 shape complexity or branching degree for the molecule given by the SMILES string \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C\".", "tool_path": ["GetKappa1"]}
+{"question": "Calculate the Kappa2 shape complexity or branching degree for the molecule given by this SMILES notation: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetKappa2"]}
+{"question": "Could you determine the solvent-accessible surface area (Labute ASA) for the molecule with the SMILES notation \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C\"?", "tool_path": ["GetLabuteASA"]}
+{"question": "Based on the SMILES string \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C,\" can you identify the molecular formula of the compound?", "tool_path": ["GetMolFormula"]}
+{"question": "Calculate the Normalized Principal Moments Ratio (NPR1) descriptor for the molecule indicated by the SMILES string: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C. This descriptor aids in analyzing the charge distribution within the molecular structure.", "tool_path": ["GetNPR1"]}
+{"question": "Identify the number of aliphatic heterocycles in the molecule described by the SMILES string: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetAliphaticHeterocyclesNum"]}
+{"question": "Identify the number of aliphatic rings in the molecule described by the SMILES notation \"CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O\".", "tool_path": ["GetAliphaticRingsNum"]}
+{"question": "Calculate the number of amide bonds in the molecule whose structure is given by the SMILES string CC(=O)NCCC(=O)O.", "tool_path": ["GetAmideBondsNum"]}
+{"question": "How many aromatic carbocyclic rings are found in the molecule with the SMILES notation \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C\"?", "tool_path": ["GetAromaticCarbocyclesNum"]}
+{"question": "Identify the number of aromatic heterocycles present in the molecule described by this SMILES string: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetAromaticHeterocyclesNum"]}
+{"question": "Identify the total number of atoms in the molecule described by the SMILES string \"CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O\".", "tool_path": ["GetAtomsNum"]}
+{"question": "Identify the quantity of bridgehead atoms present in the molecule described by the SMILES notation: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C. ", "tool_path": ["GetBridgeheadAtomsNum"]}
+{"question": "Identify the number of hydrogen bond acceptors in the molecule with the following SMILES notation: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetHBANum"]}
+{"question": "Identify how many hydrogen bond donors are present in the molecule with the following SMILES notation: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetHBDNum"]}
+{"question": "Calculate the number of atoms in the molecule, excluding hydrogen, represented by the given SMILES notation: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetHeavyAtomsNum"]}
+{"question": "Identify the number of heterocyclic rings in the molecule represented by the structure: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetHeterocyclesNum"]}
+{"question": "Calculate the quantity of hydrogen bond acceptors for the molecule with the SMILES string: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C, following Lipinski's rule.", "tool_path": ["GetLipinskiHBANum"]}
+{"question": "Identify the number of hydrogen bond donors in the molecule with the SMILES string \"CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O\" based on Lipinski's rule of five.", "tool_path": ["GetLipinskiHBDNum"]}
+{"question": "How many rings can be found in the molecule represented by the structure: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["GetRingsNum"]}
+{"question": "Identify the number of bonds in the molecule denoted by the SMILES code \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C\" that can rotate freely without causing the molecule to disintegrate.", "tool_path": ["GetRotatableBondsNum"]}
+{"question": "How many saturated carbocycles are present in the molecule with the SMILES notation: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["GetSaturatedCarbocyclesNum"]}
+{"question": "How many saturated rings can be found in the molecule with the SMILES notation \"CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O\"?", "tool_path": ["GetSaturatedRingsNum"]}
+{"question": "Identify the count of spiro atoms in the molecule described by the SMILES string: CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetSpiroAtomsNum"]}
+{"question": "Identify the number of atomic stereocenters in the molecule with the SMILES string \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C\" that do not have specified stereochemistry.", "tool_path": ["GetUnspecifiedAtomStereoCentersNum"]}
+{"question": "Identify the template molecule corresponding to the SMILES string \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C\" and present your findings in a structured markdown format.", "tool_path": ["GetTemplateMolecule"]}
+{"question": "Create the atom pair fingerprint as a SparseBitVect for the molecule with the SMILES string CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C, and list the active bits in the fingerprint.", "tool_path": ["GetAtomPairFingerprintAsBitVect"]}
+{"question": "What are the atom types according to the Patty classification for the molecule represented by the SMILES string CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["AssignPattyTypes"]}
+{"question": "What are the EState atom types for the molecule represented by the SMILES string \"CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C\"?", "tool_path": ["TypeAtomsInMolecule"]}
+{"question": "What is the EState fingerprint for the molecule represented by the SMILES notation CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["GenerateEstateFingerprint"]}
+{"question": "Could you determine the normalized principal moments of inertia (NPR1 and NPR2) for the molecule with the SMILES notation CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["CalculatePmi"]}
+{"question": "What are the various possible Fraggle fragmentations for the molecule represented by the SMILES string CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["GenerateFraggleFragments"]}
+{"question": "Could you create the RDKit fingerprint for the molecule represented by the SMILES string CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["BuildRdkitFpFromSmiles"]}
+{"question": "Could you determine the Morgan fingerprint for the molecule with the SMILES notation CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["BuildMorganFpFromSmiles"]}
+{"question": "What is the Avalon fingerprint for the molecule with the SMILES notation CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["BuildAvalonFpFromSmiles"]}
+{"question": "Can you identify the molecular key for the compound denoted by the SMILES string CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["GenerateMolKeyFromSmiles"]}
+{"question": "Identify the PBF descriptor for the molecule represented by the SMILES notation CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O.", "tool_path": ["CalculatePBF"]}
+{"question": "Could you determine the primary principal moment of inertia for the molecule depicted by the SMILES notation CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["CalculatePMI1"]}
+{"question": "Could you determine the PMI2 descriptor for the molecule represented by the SMILES string CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["CalculatePMI2"]}
+{"question": "Could you determine the PMI3 descriptor for the molecule represented by the SMILES notation \"CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O\"?", "tool_path": ["CalculatePMI3"]}
+{"question": "Could you calculate the Phi angle for the molecule depicted by the SMILES notation CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["CalculatePhi"]}
+{"question": "What is the Radial Distribution Function (RDF) descriptor for the molecule denoted by the SMILES string CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["CalculateRDF"]}
+{"question": "What is the radius of gyration for the molecule with the SMILES notation CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["CalculateRadiusOfGyration"]}
+{"question": "Calculate the spherocity index for the molecule with the SMILES notation CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O.", "tool_path": ["CalculateSpherocityIndex"]}
+{"question": "Could you determine the Topological Polar Surface Area (TPSA) for the molecule with the SMILES notation CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["CalculateTPSA"]}
+{"question": "What is the specific property of the molecule represented by the SMILES string CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O when computed using the Van der Waals Surface Area method?", "tool_path": ["CustomPropertyVSA"]}
+{"question": "Could you calculate the atom pair fingerprint for the molecule represented by the SMILES string CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["GetAtomPairFingerprint"]}
+{"question": "Could you determine the connectivity invariants for the molecule described by the SMILES notation CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["GetConnectivityInvariants"]}
+{"question": "Could you calculate the feature invariants for the molecule represented by the SMILES string CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["GetFeatureInvariants"]}
+{"question": "Could you identify the hybridization states of each atom in the molecule denoted by the SMILES sequence CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["GetHybridization"]}
+{"question": "Sure, could you calculate the MACCS keys fingerprints for the molecule with the SMILES notation CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["GetMACCSKeysFingerprint"]}
+{"question": "What is the USRCAT descriptor for the molecule represented by the SMILES notation CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["GetUSRCAT"]}
+{"question": "Could you produce the SMILES notation, including hydrogen atoms, for the molecule with the structure CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["AddHydrogens"]}
+{"question": "Calculate the formal charges for each atom in the molecule represented by the SMILES string CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O.", "tool_path": ["GetFormalChargeOfAtoms"]}
+{"question": "Convert the SMILES notation CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O   into its Kekulé structure representation.", "tool_path": ["Kekulize"]}
+{"question": "What is the Murcko scaffold of the compound represented by the SMILES string CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["MurckoDecompose"]}
+{"question": "Create the SMILES string for the molecule CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O, omitting hydrogen atoms.", "tool_path": ["RemoveHydrogens"]}
+{"question": "How would the SMILES string CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O appear if all stereochemistry information is removed?", "tool_path": ["RemoveStereochemistry"]}
+{"question": "What are the oxidation states of the atoms in the molecule represented by the SMILES string CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["AssignOxidationNumbers"]}
+{"question": "Determine the Radial Distribution Function descriptor for the molecule represented by the SMILES notation CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["CalculateRDF"]}
+{"question": "What is the topological polar surface area of the compound represented by the SMILES notation CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["CalculateTPSA"]}
+{"question": "What are the connectivity invariants for the molecule represented by the SMILES string CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["GetConnectivityInvariants"]}
+{"question": "Identify the hybridization of each atom in the molecule represented by the SMILES notation CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetHybridization"]}
+{"question": "Determine the types of ring systems found in the molecule represented by the SMILES notation CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetRingSystems"]}
+{"question": "Determine the USR descriptor for the molecule with the SMILES notation CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetUSR"]}
+{"question": "Determine the USRCAT descriptor for the molecule represented by the SMILES notation CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C.", "tool_path": ["GetUSRCAT"]}
+{"question": "Can you add hydrogen atoms to the molecule given by the SMILES notation CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["AddHydrogens"]}
+{"question": "What are the formal charges of the individual atoms in the molecule denoted by the SMILES string CC(=CCC/C(=C/CSC[C@H](NC(=O)C)C(=O)O)/C)C?", "tool_path": ["GetFormalChargeOfAtoms"]}
+{"question": "What is the PMI2 descriptor for the molecule represented by the SMILES notation CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["CalculatePMI2"]}
+{"question": "What is the unique property of the molecule represented by the SMILES string CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O when evaluated using the Van der Waals Surface Area method?", "tool_path": ["CustomPropertyVSA"]}
+{"question": "Could you calculate the connectivity invariants for the molecule given by the SMILES string CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O?", "tool_path": ["GetConnectivityInvariants"]}

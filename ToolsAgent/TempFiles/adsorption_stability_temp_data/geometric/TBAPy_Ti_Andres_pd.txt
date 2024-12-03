@@ -1,0 +1,1 @@
+ToolsKG/TempFiles/adsorption_stability_temp_data/geometric/TBAPy_Ti_Andres_pd.txt    8.86456 7.44817  8.86456

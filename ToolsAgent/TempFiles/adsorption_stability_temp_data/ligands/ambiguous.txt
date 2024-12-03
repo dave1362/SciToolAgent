@@ -1,0 +1,6 @@
+hMOF-5030024-(id_89850), Anchors list: {152, 153, 154, 151}, SBU connectlist: {0} set to be linker
+hMOF-5030024-(id_89850), Anchors list: {152, 153, 154, 151}, SBU connectlist: {0} set to be linker
+hMOF-5030024-(id_89850), Anchors list: {152, 153, 154, 151}, SBU connectlist: {0} set to be linker
+hMOF-5030024-(id_89850), Anchors list: {152, 153, 154, 151}, SBU connectlist: {0} set to be linker
+hMOF-5030024-(id_89850), Anchors list: {152, 153, 154, 151}, SBU connectlist: {0} set to be linker
+hMOF-5030024-(id_89850), Anchors list: {152, 153, 154, 151}, SBU connectlist: {0} set to be linker

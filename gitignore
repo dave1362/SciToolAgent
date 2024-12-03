@@ -1,0 +1,14 @@
+.vscode/
+
+.git/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.pytest_cache/
+
+/KG/storage_graph_large*
+/data/*.csv
+/data/*.xlsx

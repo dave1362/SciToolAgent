@@ -1,0 +1,1 @@
+ToolsKG/TempFiles/adsorption_stability_temp_data/geometric/RUSWOT_pd.txt    6.47922 3.93218  6.47770

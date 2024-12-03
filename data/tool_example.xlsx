@@ -1,0 +1,3 @@
+Category	Name	Function	Input	Output	Safety	Source
+Chemical Tool	NameToSMILES	Query the corresponding SMILES format based on the molecule name	molecule name	SMILES	Yes	Web API
+	Your tool here					

@@ -1,0 +1,3 @@
+@ ToolsKG/TempFiles/adsorption_stability_temp_data/geometric/LASYOU_av.txt Unitcell_volume: 2437.05   Density: 0.926614   AV_A^3: 432.821 AV_Volume_fraction: 0.1776 AV_cm^3/g: 0.191666 NAV_A^3: 0 NAV_Volume_fraction: 0 NAV_cm^3/g: 0
+Number_of_channels: 1 Channel_volume_A^3: 432.821  
+Number_of_pockets: 0 Pocket_volume_A^3: 

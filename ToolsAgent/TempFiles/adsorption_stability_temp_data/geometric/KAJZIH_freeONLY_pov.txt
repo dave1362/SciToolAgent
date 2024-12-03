@@ -1,0 +1,3 @@
+@ ToolsKG/TempFiles/adsorption_stability_temp_data/geometric/KAJZIH_freeONLY_pov.txt Unitcell_volume: 2552.1   Density: 1.83342   POAV_A^3: 560.951 POAV_Volume_fraction: 0.2198 POAV_cm^3/g: 0.119886 PONAV_A^3: 0 PONAV_Volume_fraction: 0 PONAV_cm^3/g: 0
+PROBE_OCCUPIABLE_VOL_CALC: filename| density(g/cm3)| probe rad| N points| probe ctr A fract| probe ctr NA fract| A fract| NA fract| narrow fract |ovlp fract.
+PROBE_OCCUPIABLE___RESULT: ToolsKG/TempFiles/adsorption_stability_temp_data/geometric/KAJZIH_freeONLY_pov.txt	1.83342	1.86	10000	0.0458	0	0.2198	0	0.2278	0.5524

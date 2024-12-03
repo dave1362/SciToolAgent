@@ -1,0 +1,1 @@
+{"tool_path": ["NameToSMILES", "GetChi1v", "GetMolFormula", "CalculateTPSA"], "question": "Please provide the SMILES string for the molecule with the molecule name \"morphine,\" then calculate and report the Chi^1v valence molecular graph index, the molecular formula, and the topological polar surface area (TPSA) for the molecule."}

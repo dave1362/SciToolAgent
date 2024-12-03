@@ -1,0 +1,1 @@
+ToolsKG/TempFiles/adsorption_stability_temp_data/geometric/mof-5_cellopt_pd.txt    15.24593 8.03236  15.24593

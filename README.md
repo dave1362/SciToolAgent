@@ -24,6 +24,7 @@
 
 
 
+
 <h2 id="2">⌚️  Overview</h2>
 
 SciToolAgent is a powerful agent framework designed to integrate diverse scientific tools with large language models (LLMs) to address the limitations of existing systems in scientific research. By combining LLMs as Planners, Executors, and Summarizers with a comprehensive scientific tool knowledge graph (SciToolKG), SciToolAgent autonomously plans, executes, and summarizes workflows for solving complex scientific tasks across multiple domains.
@@ -207,10 +208,13 @@ We provide an online service for SciToolAgent, you can access it through the fol
 <h2 id="9">📝️  Cite</h2>
 
 ```
-@article{
-  title={SciToolAgent: Knowledge Graph-Driven Scientific Agent for Multi-Tool Integration},
-  author={Keyan Ding, Jing Yu, Junjie Huang, Yuchen Yang, Qiang Zhang, Huajun Chen},
-  journal={bioRxiv}
-  year={2024},
+@misc{ding2025scitoolagentknowledgegraphdrivenscientific,
+      title={SciToolAgent: A Knowledge Graph-Driven Scientific Agent for Multi-Tool Integration}, 
+      author={Keyan Ding and Jing Yu and Junjie Huang and Yuchen Yang and Qiang Zhang and Huajun Chen},
+      year={2025},
+      eprint={2507.20280},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2507.20280}, 
 }
 ```

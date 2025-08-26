@@ -15,14 +15,13 @@
 - [📊 Data Preparation](#5)
 - [🛠️ Custom Tools](#6)
 - [📜 SciToolEval](#7)
-- [🖥️ Website](#8)
-- [📝️ Cite](#9)
+- [📝️ Cite](#8)
 
 ## 🆕 News
 
 - **[2024-12]**: The SciToolAgent project is now available on GitHub.
 
-
+- **[2028-08]**: Our research published in Nature Computational Science.
 
 
 <h2 id="2">⌚️  Overview</h2>
@@ -201,20 +200,16 @@ python eval_tool_path.py
 `input_file` is the result of your agent's answer, `standard_file` is the standard answer file containing answer or tool_path, `tool_description_file` is the tool description file, and `output_file` is the evaluation output result file.
 
 
-<h2 id="8">🖥️ Website</h2>
 
-We provide an online service for SciToolAgent, you can access it through the following link: http://scitoolagent.scimind.ai:8080/
-
-<h2 id="9">📝️  Cite</h2>
+<h2 id="8">📝️  Cite</h2>
 
 ```
-@misc{ding2025scitoolagentknowledgegraphdrivenscientific,
-      title={SciToolAgent: A Knowledge Graph-Driven Scientific Agent for Multi-Tool Integration}, 
-      author={Keyan Ding and Jing Yu and Junjie Huang and Yuchen Yang and Qiang Zhang and Huajun Chen},
-      year={2025},
-      eprint={2507.20280},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2507.20280}, 
-}
+@article{ding2025scitoolagent,
+  title={SciToolAgent: a knowledge-graph-driven scientific agent for multitool integration},
+  author={Ding, Keyan and Yu, Jing and Huang, Junjie and Yang, Yuchen and Zhang, Qiang and Chen, Huajun},
+  journal={Nature Computational Science},
+  pages={1--11},
+  year={2025},
+  publisher={Nature Publishing Group US New York}
+
 ```

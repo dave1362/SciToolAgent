@@ -21,7 +21,7 @@
 
 - **[2024-12]**: The SciToolAgent project is now available on GitHub.
 
-- **[2028-08]**: Our research published in Nature Computational Science.
+- **[2025-08]**: Our research published in Nature Computational Science.
 
 
 <h2 id="2">⌚️  Overview</h2>
